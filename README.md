@@ -7,9 +7,9 @@ A subprocess manager in PHP
 <pre>
 &lt;?php
 
-require 'SubProcessManager.class.php';
+require 'SubProcessManager.php';
 //允许子进程拥有子进程
-$sub = SubProcess::getInstance(2);
+$sub = SubProcessManager::getInstance(2);
 
 echo 'i\'m main process ', posix_getpid(), ' parent is ', posix_getppid(), PHP_EOL;
 

@@ -44,7 +44,7 @@ class SubProcessManager{
 	/**
 	 * 获取子进程管理对象（单例）
 	 * @param string $maxRecursion 最多的fork套嵌层数
-	 * @return SubProcess
+	 * @return SubProcessManager
 	 */
 	public static function getInstance($maxRecursion = 1){
 		static $instance = null;
