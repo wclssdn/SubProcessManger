@@ -7,7 +7,7 @@ A subprocess manager in PHP
 <pre>
 &lt;?php
 
-require 'SubProcessManager.php';
+require __DIR__ . '/SubProcessManager.php';
 //允许子进程拥有子进程
 $sub = SubProcessManager::getInstance(2);
 
